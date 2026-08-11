@@ -1,0 +1,22 @@
+# Environnement virtuel
+venv/
+.venv/
+
+# Fichiers secrets et clés API (TRÈS IMPORTANT)
+.env
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+
+# Base de données locale de test
+db.sqlite3
+*.chroma
+
+# Configuration éditeur
+.vscode/
+.idea/
+
+# media
+media/
+staticfiles/
